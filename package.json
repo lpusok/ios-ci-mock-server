@@ -25,8 +25,8 @@
   "detox": {
     "configurations": {
       "ios.sim.debug": {
-        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/MockServer.app",
-        "build": "xcodebuild -project ios/MockServer.xcodeproj -scheme MockServer -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/MockServer.app",
+        "build": "xcodebuild -project ios/MockServer.xcodeproj -scheme MockServer -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
         "type": "ios.simulator",
         "name": "iPhone 7"
       },
